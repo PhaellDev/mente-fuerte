@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contacta con Mente Fuerte - escríbenos tus dudas o comentarios sobre hábitos equilibrados y estilo de vida sereno.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Contacto - Mente Fuerte">
+<meta property="og:description" content="Escríbenos tus dudas o comentarios. Te respondemos con gusto.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://matinhamrtk.shop/contact.html">
+<link rel="canonical" href="https://matinhamrtk.shop/contact.html">
+<title>Contacto - Mente Fuerte</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #34433F;
+    background-color: #F7F9F8;
+  }
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #e3ece8;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  .nav-wrapper { display: flex; justify-content: space-between; align-items: center; }
+  .logo { font-size: 1.5rem; font-weight: 600; color: #27403B; text-decoration: none; }
+  .logo span { color: #4F9E8B; }
+  nav ul { display: flex; list-style: none; gap: 2rem; }
+  nav a { color: #50635D; text-decoration: none; font-size: 0.95rem; transition: color 0.2s; }
+  nav a:hover { color: #4F9E8B; }
+  .page-hero {
+    background: linear-gradient(135deg, #EAF3EF 0%, #D5E7E0 100%);
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .page-hero h1 { font-size: 2.2rem; color: #27403B; font-weight: 600; }
+  .page-hero p { color: #4c5e58; margin-top: 0.5rem; font-size: 1rem; max-width: 640px; margin-left: auto; margin-right: auto; }
+  .content { padding: 3rem 0; }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 2.5rem;
+    max-width: 980px;
+    margin: 0 auto;
+    align-items: start;
+  }
+  .contact-info {
+    background: #fff;
+    border: 1px solid #e6efeb;
+    border-left: 4px solid #4F9E8B;
+    border-radius: 8px;
+    padding: 1.75rem;
+    box-shadow: 0 1px 3px rgba(39,64,59,0.04);
+  }
+  .contact-info h2 { color: #27403B; font-size: 1.3rem; margin-bottom: 1rem; }
+  .contact-info p { color: #4c5e58; margin-bottom: 0.9rem; font-size: 0.97rem; }
+  .contact-info strong { color: #27403B; }
+  .contact-info a { color: #3F8C79; text-decoration: none; }
+  .contact-info a:hover { text-decoration: underline; }
+  .contact-form {
+    background: #fff;
+    border: 1px solid #e6efeb;
+    border-radius: 8px;
+    padding: 1.75rem;
+    box-shadow: 0 2px 8px rgba(39,64,59,0.05);
+  }
+  .contact-form h2 { color: #27403B; font-size: 1.3rem; margin-bottom: 1.25rem; }
+  .form-group { margin-bottom: 1.1rem; }
+  .form-group label {
+    display: block;
+    color: #50635D;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.35rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid #d9e4df;
+    border-radius: 4px;
+    font-size: 0.97rem;
+    font-family: inherit;
+    color: #34433F;
+    background: #F7F9F8;
+  }
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #4F9E8B;
+  }
+  .form-group textarea { resize: vertical; min-height: 130px; }
+  .contact-form button {
+    background: #4F9E8B;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+  .contact-form button:hover { background: #3F8C79; }
+  footer { background: #213833; color: #fff; padding: 2.5rem 0 1.5rem; }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer-grid h4 { margin-bottom: 1rem; color: #8FCFBF; }
+  .footer-grid ul { list-style: none; }
+  .footer-grid li { margin-bottom: 0.5rem; }
+  .footer-grid a { color: #c2d3cd; text-decoration: none; font-size: 0.9rem; }
+  .footer-grid a:hover { color: #fff; }
+  .footer-grid p { color: #c2d3cd; font-size: 0.9rem; line-height: 1.6; }
+  .footer-bottom {
+    border-top: 1px solid #345149;
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #9db5ad;
+    font-size: 0.85rem;
+  }
+  .footer-bottom a { color: #8FCFBF; text-decoration: none; margin: 0 0.5rem; }
+  @media (max-width: 768px) {
+    .page-hero h1 { font-size: 1.7rem; }
+    nav ul { gap: 1rem; font-size: 0.85rem; }
+    .contact-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="index.html" class="logo">Mente<span>Fuerte</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#about">Sobre el blog</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Ponte en contacto</h1>
+    <p>¿Tienes una pregunta, una sugerencia o simplemente quieres saludarnos? Nos encantará leerte.</p>
+  </div>
+</section>
+
+<section class="content">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Información de contacto</h2>
+        <p><strong>Correo:</strong><br><a href="mailto:contacto@matinhamrtk.shop">contacto@matinhamrtk.shop</a></p>
+        <p><strong>Horario de atención:</strong><br>Lunes a viernes, de 9:00 a 18:00.</p>
+        <p><strong>Tiempo de respuesta:</strong><br>Solemos responder dentro de las 48 horas hábiles.</p>
+        <p style="font-size: 0.88rem; color: #6b7d77;">Recuerda que nuestro contenido es de carácter informativo y editorial. Cada persona es libre de decidir qué ideas encajan con su propia rutina.</p>
+      </div>
+
+      <div class="contact-form">
+        <h2>Envíanos un mensaje</h2>
+        <form onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje! Te responderemos pronto.'); this.reset();">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Asunto</label>
+            <input type="text" id="subject" name="subject" placeholder="¿Sobre qué quieres escribirnos?" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" placeholder="Escribe aquí tu mensaje" required></textarea>
+          </div>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Mente Fuerte</h4>
+        <p>Blog editorial sobre hábitos equilibrados, rutinas conscientes y estilo de vida sereno, contado con calma.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#about">Sobre el blog</a></li>
+          <li><a href="index.html#tips">Ideas</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Información</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Política de Privacidad</a></li>
+          <li><a href="terms.html">Términos de Uso</a></li>
+          <li><a href="contact.html">Contáctanos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p><a href="mailto:contacto@matinhamrtk.shop" style="color:#c2d3cd;text-decoration:none;">contacto@matinhamrtk.shop</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem;">Horario de atención: lunes a viernes, de 9:00 a 18:00.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p style="font-size: 0.8rem;">
+        Mente Fuerte es un blog de carácter informativo y editorial dedicado al bienestar emocional y al estilo de vida. Los contenidos reflejan ideas, reflexiones y hábitos de carácter general que muchas personas incorporan a su día a día, y no constituyen asesoramiento profesional de ningún tipo ni sustituyen la orientación de un especialista. Cada persona es libre de decidir qué costumbres encajan con su propia rutina. © Mente Fuerte · matinhamrtk.shop
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
