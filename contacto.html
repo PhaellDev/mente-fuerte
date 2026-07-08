@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ponte en contacto con Valle Sereno, magazine editorial sobre alimentos naturales y cocina de tradición. Escríbenos a contacto@matinhamrtk.shop.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Contacto – Valle Sereno">
+<meta property="og:description" content="Ponte en contacto con Valle Sereno, magazine editorial sobre alimentos naturales y cocina de tradición.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://matinhamrtk.shop/contacto.html">
+<link rel="canonical" href="https://matinhamrtk.shop/contacto.html">
+<title>Contacto – Valle Sereno</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #34433F;
+    background-color: #F7F9F8;
+  }
+  /* Header */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #e3ece8;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #27403B;
+    text-decoration: none;
+  }
+  .logo span {
+    color: #4F9E8B;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  nav a {
+    color: #50635D;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+  }
+  nav a:hover {
+    color: #4F9E8B;
+  }
+  /* Page header */
+  .page-header {
+    background: linear-gradient(135deg, #EAF3EF 0%, #D5E7E0 100%);
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .page-header h1 {
+    font-size: 2.2rem;
+    color: #27403B;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
+  .page-header p {
+    font-size: 1.05rem;
+    color: #4c5e58;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  /* Content */
+  .content {
+    max-width: 800px;
+    margin: 2rem auto 3rem;
+    padding: 0 20px;
+  }
+  .content h2 {
+    color: #27403B;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+  }
+  .content p {
+    color: #4c5e58;
+    margin-bottom: 1rem;
+    font-size: 1.02rem;
+  }
+  .content ul {
+    margin: 0 0 1rem 1.25rem;
+    color: #4c5e58;
+  }
+  .content li {
+    margin-bottom: 0.4rem;
+  }
+  .content a {
+    color: #3F8C79;
+    text-decoration: none;
+  }
+  .content a:hover {
+    text-decoration: underline;
+  }
+  .info-box {
+    background: #fff;
+    border: 1px solid #e6efeb;
+    border-left: 4px solid #4F9E8B;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0 2rem;
+    box-shadow: 0 1px 3px rgba(39,64,59,0.04);
+  }
+  .info-box p {
+    margin-bottom: 0.5rem;
+  }
+  /* Form */
+  .contact-form {
+    background: #fff;
+    border: 1px solid #e6efeb;
+    border-radius: 8px;
+    padding: 1.75rem;
+    box-shadow: 0 2px 8px rgba(39,64,59,0.05);
+  }
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+  .form-group label {
+    display: block;
+    color: #27403B;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d3e0db;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #34433F;
+    background: #fbfdfc;
+  }
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #4F9E8B;
+  }
+  .form-group textarea {
+    min-height: 140px;
+    resize: vertical;
+  }
+  .contact-form button {
+    background: #4F9E8B;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+  .contact-form button:hover {
+    background: #3F8C79;
+  }
+  /* Footer */
+  footer {
+    background: #213833;
+    color: #fff;
+    padding: 2.5rem 0 1.5rem;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer-grid h4 {
+    margin-bottom: 1rem;
+    color: #8FCFBF;
+  }
+  .footer-grid ul {
+    list-style: none;
+  }
+  .footer-grid li {
+    margin-bottom: 0.5rem;
+  }
+  .footer-grid a {
+    color: #c2d3cd;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .footer-grid a:hover {
+    color: #fff;
+  }
+  .footer-grid p {
+    color: #c2d3cd;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .footer-bottom {
+    border-top: 1px solid #345149;
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #9db5ad;
+    font-size: 0.85rem;
+  }
+  .footer-bottom a {
+    color: #8FCFBF;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  /* Responsive */
+  @media (max-width: 768px) {
+    .page-header h1 { font-size: 1.7rem; }
+    nav ul { gap: 1rem; font-size: 0.85rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="index.html" class="logo">Valle <span>Sereno</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html#home">Inicio</a></li>
+          <li><a href="index.html#about">Sobre nosotros</a></li>
+          <li><a href="index.html#tips">Recetas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- Page header -->
+<section class="page-header">
+  <div class="container">
+    <h1>Contacto</h1>
+    <p>Nos gusta leer a quienes comparten el gusto por la cocina de siempre. Escríbenos con calma y te responderemos lo antes posible.</p>
+  </div>
+</section>
+
+<!-- Content -->
+<div class="content">
+
+  <h2>Ponte en contacto</h2>
+  <p>En Valle Sereno recibimos con gusto tus comentarios, dudas y sugerencias sobre nuestras notas. Si quieres proponernos un tema, contarnos una receta de familia o simplemente saludar, este es el lugar. Leemos cada mensaje con atención y procuramos responder en el menor tiempo posible.</p>
+  <p>Puedes escribirnos directamente por correo electrónico o completar el formulario que encontrarás más abajo. No hace falta que sea nada formal: tu mensaje llega igual y con la misma bienvenida.</p>
+
+  <h2>Información de contacto</h2>
+  <div class="info-box">
+    <p><strong>Correo electrónico:</strong> <a href="mailto:contacto@matinhamrtk.shop">contacto@matinhamrtk.shop</a></p>
+    <p><strong>Horario de atención:</strong> de lunes a viernes, de 9:00 a 18:00.</p>
+    <p><strong>Sitio:</strong> matinhamrtk.shop</p>
+  </div>
+
+  <h2>Envíanos un mensaje</h2>
+  <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje! Te responderemos pronto.'); this.reset();">
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    </div>
+    <div class="form-group">
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+    </div>
+    <div class="form-group">
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje" required></textarea>
+    </div>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Valle Sereno</h4>
+        <p>Magazine editorial sobre alimentos naturales, cocina de tradición y recetas de siempre, contado con calma.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html#home">Inicio</a></li>
+          <li><a href="index.html#about">Sobre nosotros</a></li>
+          <li><a href="index.html#tips">Recetas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="privacidad.html">Política de privacidad</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p><a href="mailto:contacto@matinhamrtk.shop" style="color:#c2d3cd;text-decoration:none;">contacto@matinhamrtk.shop</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem;">Atención: de lunes a viernes, de 9:00 a 18:00.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p style="font-size: 0.8rem;">
+        Valle Sereno es un magazine informativo y editorial sobre alimentos naturales, cocina de tradición y gastronomía regional. Los contenidos ofrecen ideas generales, notas y costumbres que muchas familias mantienen alrededor de la mesa. No constituyen asesoramiento nutricional, de salud ni médico, y no sustituyen la valoración de profesionales. Cada persona decide qué costumbres se adaptan a su propia cocina. © Valle Sereno · matinhamrtk.shop
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
